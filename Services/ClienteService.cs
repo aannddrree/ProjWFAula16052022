@@ -11,10 +11,12 @@ namespace Services
         public void Add(Cliente cliente)
         {
             lst.Add(cliente);
+            //Banco de dados
         }
         public List<Cliente> findAll()
         {
             return lst;
+            //Banco de dados
         }
     }
 }
